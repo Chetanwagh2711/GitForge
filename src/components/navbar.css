@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #30363d;
+  background-color: #161b22;
+}
+
+nav img {
+  height: 40px;
+}
+
+.nav-logout {
+  cursor: pointer;
+  color: #f85149;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav h3 {
+  margin: 0 0 0 15px;
+  color: white;
+}
+
+nav p {
+  margin: 0 0 0 30px;
+  font-weight: bold;
+  color: white;
+}
+
+nav h3:hover,
+nav p:hover {
+  text-decoration: underline;
+}
